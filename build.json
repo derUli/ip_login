@@ -1,0 +1,9 @@
+{
+	"id": "ip_login",
+	"version": "1.0",
+	"description": "Login users based on their ip address",
+	"categories": [
+		"security"
+	],
+	"compatible_from": "2018.2"
+}
