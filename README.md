@@ -18,7 +18,6 @@ ip_login will coexist with other authentication modules and methods.
 
 * UliCMS 2018.2 or a later version of UliCMS 2018.x
 
-
 ## Configuration
 
 To configure IP-to-User Mappings your usergroup needs the permission **ip_login**.
