@@ -7,6 +7,14 @@ Login users based on their ip address.
 All IP addresses in this document were randomly generated. 
 The UliCMS project is not associated in any form with the owners of these addresses.
 
+Words included in brackets in this document are intended as placeholders. 
+
+**Example:** 
+
+```
+[IP Address]
+```
+
 ## What is ip_login?
 
 ip_login is an UliCMS module for logging in Users based on their ip address. When a client with the IP address [ip address] accesses your UliCMS backend [user name] will automatically get logged in without the need to fill the login form. If a user is authenticated by his ip address the logout button is disabled, since it won't work in this case.
@@ -29,13 +37,13 @@ To configure IP-to-User Mappings your usergroup needs the permission **ip_login*
 One entry per line
 The format must be:
 
-```code
-[ip address]=>[Username]
+```
+[IP Address]=>[Username]
 ```
 
 Here are some example mappings:
 
-```code
+```
 131.213.138.20=>maxmuster
 209.143.210.186=>sabinemuster
 60.226.125.233=>johndoe
