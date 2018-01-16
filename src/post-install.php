@@ -1,2 +1,2 @@
 <?php
-Settings::register ( "ip_user_login", "" );
+Settings::register("ip_user_login", "");
