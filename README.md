@@ -17,7 +17,7 @@ Words included in brackets in this document are intended as placeholders.
 
 ## What is ip_login?
 
-ip_login is an UliCMS module for logging in Users based on their IP address. When a client with the IP address [IP address] accesses your UliCMS backend [user name] will automatically get logged in without the need to fill the login form. If a user is authenticated by his IP address the logout button is disabled, since it won't work in this case.
+ip_login is an UliCMS module for logging in Users based on their IP address. When a client with the IP address [IP address] accesses your UliCMS backend [user name] will automatically get logged in without the need to fill the login form. If a user is authenticated by his IP address the logout button is removed, since it won't work in this case.
 If the IP address of a ip authenticated user changes he will get logged out.
 
 ip_login will coexist with other authentication modules and methods.
