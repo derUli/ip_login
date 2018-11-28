@@ -36,7 +36,7 @@ class IpLogin extends MainClass
         }
         $filteredEntries = array();
         for ($i = 0; $i < count($entries); $i ++) {
-            if ($entries[$i]->getIdentifier() != "destroy") {
+            if ($entries[$i]->getIdentifier() != "logout") {
                 $filteredEntries[] = $entries[$i];
             }
         }
