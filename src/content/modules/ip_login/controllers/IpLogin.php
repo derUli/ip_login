@@ -21,10 +21,12 @@ class IpLogin extends MainClass
                 @session_destroy();
                 @session_start();
                 $_SESSION["login_by_ip"] = false;
+                break;
             } else if ($ip === Request::getIp()) {
                 $user = getUserByName($userName);
                 $_SESSION["login_by_ip"] = true;
                 register_session($user, false);
+                break;
             }
         }
     }
