@@ -13,4 +13,5 @@
 </p>
 <p>
 	<button type="submit" class="btn btn-success"><?php translate("save");?></button>
+</p>
 <?php echo ModuleHelper::endForm();?>
