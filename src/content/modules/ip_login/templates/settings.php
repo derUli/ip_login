@@ -12,6 +12,6 @@
 	<textarea name="ip_user_login" rows="8"><?php esc(Settings::get ( "ip_user_login" ));?></textarea>
 </p>
 <p>
-	<button type="submit" class="btn btn-success"><?php translate("save");?></button>
+	<button type="submit" class="btn btn-success"><i class="fa fa-save" aria-hidden="true"></i> <?php translate("save");?></button>
 </p>
 <?php echo ModuleHelper::endForm();?>
